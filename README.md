@@ -66,7 +66,7 @@ VESTA-AI-Wardrobe-Guide/
 
 Projenin kaynak kodlarına GitHub üzerinden ulaşabilirsiniz:
 
-BURAYA_GITHUB_REPOSITORY_BAGLANTINI_EKLE
+(https://github.com/sevvalbetulcelik/VESTA-AI-Wardrobe-Guide)
 
 ---
 
