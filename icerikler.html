@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VESTA akıllı gardırop, kombin ve kişisel stil rehberi.">
+    <title>Keşfet | VESTA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">VESTA<span>.</span></a>
+    <nav class="navbar" aria-label="Ana menü">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="icerikler.html" class="active">Keşfet</a>
+        <a href="hakkinda.html">Hakkında</a>
+    </nav>
+    <a href="index.html" class="header-btn">Ana Sayfa ↗</a>
+</header>
+
+<main>
+    <section class="content-hero">
+        <span class="eyebrow">THE VESTA EXPERIENCE</span>
+        <h1>Discover your <span>style.</span></h1>
+        <p>Gardırobunu daha akıllı kullanmanın beş farklı yolunu keşfet.</p>
+    </section>
+
+    <section class="content-section">
+        <div class="content-heading">
+            <div>
+                <span class="eyebrow">EXPLORE OUR WORLD</span>
+                <h2>Stil Rehberi</h2>
+            </div>
+            <span class="content-label">01 — 05 / COLLECTION</span>
+        </div>
+
+        <div class="search-area">
+            <label for="searchInput">İçerik başlığına göre ara</label>
+            <div class="search-box">
+                <span>⌕</span>
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Örneğin: Akıllı Gardırop..."
+                >
+                <button type="button" id="clearSearch">Temizle</button>
+            </div>
+            <p id="resultCount" aria-live="polite">5 içerik gösteriliyor.</p>
+        </div>
+
+        <div class="content-grid" id="contentGrid">
+
+            <article class="content-card">
+                <span class="card-number">01</span>
+                <span class="card-category">DIGITAL WARDROBE</span>
+                <h3>Akıllı Gardırop</h3>
+                <p>Kıyafetlerini dijital ortamda düzenle, gardırobundaki parçaları kolayca yönet ve sahip olduklarını yeniden keşfet.</p>
+                <div class="card-footer">
+                    <span>Kıyafet Yönetimi</span>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="content-card">
+                <span class="card-number">02</span>
+                <span class="card-category">AI STYLING</span>
+                <h3>AI Kombin Asistanı</h3>
+                <p>Yapay zekâ destekli kombin fikirleriyle farklı kıyafetleri bir araya getir ve kendi tarzını geliştir.</p>
+                <div class="card-footer">
+                    <span>Kombin Önerileri</span>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="content-card">
+                <span class="card-number">03</span>
+                <span class="card-category">COLOR HARMONY</span>
+                <h3>Renk ve Stil Uyumu</h3>
+                <p>Renklerin birbiriyle uyumunu keşfet. Farklı tonları ve parçaları bir arada kullanmayı öğren.</p>
+                <div class="card-footer">
+                    <span>Renk Analizi</span>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="content-card">
+                <span class="card-number">04</span>
+                <span class="card-category">SMART TRAVEL</span>
+                <h3>Akıllı Bavul</h3>
+                <p>Seyahat sürene, hava durumuna ve planlarına göre bavulunu daha düzenli hazırlamak için fikirler edin.</p>
+                <div class="card-footer">
+                    <span>Seyahat Planlama</span>
+                    <span>↗</span>
+                </div>
+            </article>
+
+            <article class="content-card">
+                <span class="card-number">05</span>
+                <span class="card-category">SUSTAINABLE FASHION</span>
+                <h3>Sürdürülebilir Moda</h3>
+                <p>Yeni kıyafetler satın almadan önce mevcut parçalarını değerlendir. Daha bilinçli bir moda anlayışı geliştir.</p>
+                <div class="card-footer">
+                    <span>Bilinçli Tüketim</span>
+                    <span>↗</span>
+                </div>
+            </article>
+
+        </div>
+
+        <p id="emptyMessage" class="empty-message" hidden>
+            Aradığın başlık bulunamadı. Başka bir kelime deneyebilirsin.
+        </p>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="index.html" class="logo">VESTA<span>.</span></a>
+    <p>© 2026 VESTA. The Intelligent Wardrobe.</p>
+    <a href="hakkinda.html">Hakkımızda</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
